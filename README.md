@@ -4,7 +4,7 @@ The IDA Pro plugins are built for static code analysis. Specifically, they entai
 
 The Pin tools are built for dynamic program analysis. They entail control flow tracing and control dependence programs, both also yielding .DOT graph files as outputs. To run the Pin tools, simply run the following on command line (making sure you are in a safe environment if analyzing malware):
 
-<absolute path of Pin (the actual Pin software)> -t <absolute Pin tool path>\MyPinTool.dll --<absolute path of the program we want to analyze using tool>
+(absolute path of Pin, the actual Pin software) -t (absolute Pin tool path)\MyPinTool.dll --(absolute path of the program we want to analyze using tool)
 
 For example:
 c:\pin\pin.exe -t Debug\MyPinTool.dll --calc.exe
