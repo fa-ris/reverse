@@ -6,6 +6,8 @@ The Pin tools are built for dynamic program analysis. They entail control flow t
 
 (absolute path of Pin, the actual Pin software) -t (absolute Pin tool path)\MyPinTool.dll --(absolute path of the program we want to analyze using tool)
 
+Note: both IDA Pro plugins are written in the same program file.
+
 For example:
 c:\pin\pin.exe -t Debug\MyPinTool.dll --calc.exe
 
